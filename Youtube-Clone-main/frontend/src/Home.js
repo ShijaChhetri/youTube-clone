@@ -117,8 +117,8 @@ function Home(){
                 </div>
 
                 <div class="main-right">
-                    <div className="navbar-container">
-                        {/* <div className="navbar">
+                    {/* <div className="navbar-container">
+                        <div className="navbar">
                             <div className="nav-items white">All</div>
                             <div className="nav-items white">Music</div>
                             <div className="nav-items white">Entertainment</div>
@@ -129,8 +129,8 @@ function Home(){
                             <div className="nav-items white">Live</div>
                             <div className="nav-items white">Fashion</div>
 
-                        </div> */}
-                    </div>
+                        </div>
+                    </div> */}
                         {videos.map((video) => {
                             return <VideoGrid video={video} />
                         })}
